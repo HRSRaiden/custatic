@@ -1,7 +1,12 @@
 import React from 'react';
 import './article.css';
 
-const Article = ({ imgUrl, date, text }) => (
+interface Articlex {
+  imgUrl:string;
+  date:string;
+  text: string;
+}
+const Article = ({ imgUrl, date, text }:Articlex) => (
   <div className="cu__blog-container_article">
     <div className="cu__blog-container_article-image">
       <img src={imgUrl} alt="blog_image" />

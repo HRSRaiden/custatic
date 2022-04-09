@@ -1,7 +1,11 @@
 import React from 'react';
 import './feature.css';
 
-const Feature = ({title,text}) => {
+interface Featurex{
+  title: string;
+  text: string;
+}
+const Feature = ({title,text}:Featurex) => {
   return (
     <div className="cu__features-container__feature">
     <div className="cu__features-container__feature-title">
