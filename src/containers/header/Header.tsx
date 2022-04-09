@@ -1,7 +1,7 @@
 import React from 'react';
 import './header.css';
 import people from '../../assets/people.png';
-// import people from '../../assets/people.png';
+import chill from '../../assets/chill.png';
 const Header = () => {
   return (
     <div className='cu__header section__padding' id='home'>
@@ -13,9 +13,12 @@ const Header = () => {
           <button type='button'>Get Started</button  >
         </div>
         <div className='cu__header-content__people'>
-          <img src={people} />          
-
+          <img src={people} alt='people' />    
+          <p>526 people have supported in building CU community in 24 hours</p>      
         </div>
+      </div>
+      <div className='cu__header-image'>
+        <img src={chill} alt="friends  " />
       </div>
       </div>
   )
