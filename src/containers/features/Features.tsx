@@ -25,7 +25,7 @@ const Features = () => (
   <div className="cu__features section__padding" id="features">
     <div className="cu__features-heading">
       <h1 className="gradient__text">Breaking the taboo of swiping just to date (why taboo, I don't know)</h1>
-      <p>Request Early Access to Get Started</p>
+      <p>Register Early to get Free 1 month Premium</p>
     </div>
     <div className="cu__features-container">
       {featuresData.map((item, index) => (

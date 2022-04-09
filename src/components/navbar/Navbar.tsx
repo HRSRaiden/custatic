@@ -12,7 +12,7 @@ const Menu = () => (
   <p><a href="#wcu">Explore</a></p>
   <p><a href="#possibility">About CU</a></p>
   <p><a href="#features">Careers</a></p>
-  <p><a href="#blog">Contact Us</a></p>
+  <p><a href="#blog">CU Blogs</a></p>
 </>
 )
 const Navbar = () => {
