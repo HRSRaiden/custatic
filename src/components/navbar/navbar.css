@@ -20,6 +20,7 @@
 .cu__navbar-links_logo img {
     width: 40px;
     height: 40px;
+    cursor: pointer;
 }
 
 .cu__navbar-links_container {
