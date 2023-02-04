@@ -1,5 +1,4 @@
 import React from 'react';
-import { Z_BEST_SPEED } from 'zlib';
 import Feature from '../../components/feature/Feature';
 import './features.css';
 
