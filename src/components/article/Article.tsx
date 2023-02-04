@@ -16,7 +16,7 @@ const Article = ({ imgUrl, date, text }:Articlex) => (
         <p>{date}</p>
         <h3>{text}</h3>
       </div>
-      <p>Read Full Article</p>
+      <p>@CU Meet Up</p>
     </div>
   </div>
 );

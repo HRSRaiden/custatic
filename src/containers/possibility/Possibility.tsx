@@ -8,10 +8,10 @@ const Possibility = () => (
       <img src={possibilityImage} alt="possibility" />
     </div>
     <div className="cu__possibility-content">
-      <h4>Register Early to get Premium</h4>
+      {/* <h4>Register Early to get Premium</h4> */}
       <h1 className="gradient__text">Boost you social life<br /> beyond your imagination</h1>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium praesentium magni in cum, deleniti veniam consectetur qui quidem mollitia soluta quaerat et dignissimos dolorem facere consequatur culpa commodi, itaque earum.</p>
-      <h4>Register Early to Get Started</h4>
+      {/* <p>os dolorem facere consequatur culpa commodi, itaque earum.</p> */}
+      <h4>Coming soon...</h4>
     </div>
   </div>
 );

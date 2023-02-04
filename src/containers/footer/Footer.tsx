@@ -8,9 +8,9 @@ const Footer = () => (
       <h1 className="gradient__text">Let's build a community together</h1>
     </div>
 
-    <div className="cu__footer-btn">
+    {/* <div className="cu__footer-btn">
       <p>Register Now</p>
-    </div>
+    </div> */}
 
     <div className="cu__footer-links">
       <div className="cu__footer-links_logo">
@@ -33,13 +33,13 @@ const Footer = () => (
       <div className="cu__footer-links_div">
         <h4>Get in touch</h4>
         <p>Harsh Sharma</p>
-        <p>XXXXXX3070</p>
-        <p>harsh.sharma.ee19@nsut.ac.in</p>
+        <p>outreach@cumeetup.com</p>
+        <p>hrs.cumeetup@gmail.com</p>
       </div>
     </div>
 
     <div className="cu__footer-copyright">
-      <p>@2022 hrsraiden. All rights reserved.</p>
+      <p>@2022 cumeetup. All rights reserved.</p>
     </div>
   </div>
 );

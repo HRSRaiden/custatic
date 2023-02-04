@@ -2,7 +2,7 @@ import React from 'react';
 import './App.css';
 // rafce https://animista.net/   https://angrytools.com/
 import { Footer, Header, Blog, Possibility, Features, WhatCU } from './containers';
-import { CTA, Brand, Navbar } from './components';
+import {  Brand, Navbar } from './components';
 
 const App = () => {
   return (
@@ -15,7 +15,7 @@ const App = () => {
         <WhatCU/>
         <Features/>
         <Possibility/>
-        <CTA/>
+        {/* <CTA/> */}
         <Blog/>
         <Footer/>
     </div>

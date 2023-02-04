@@ -14,7 +14,7 @@ const Header = () => {
         </div>
         <div className='cu__header-content__people'>
           <img src={people} alt='people' />    
-          <p>526 people have supported in building CU community in 24 hours</p>      
+          <p>We are a growing community</p>      
         </div>
       </div>
       <div className='cu__header-image'>

@@ -1,31 +1,32 @@
 import React from 'react';
+import { Z_BEST_SPEED } from 'zlib';
 import Feature from '../../components/feature/Feature';
 import './features.css';
 
 const featuresData = [
   {
-    title: 'Go to places with friends',
-    text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo corporis eligendi at sed minus, iure iusto, nam inventore delectus cupiditate pariatur exercitationem quia eos cumque perferendis veniam fugit. Molestias, blanditiis!',
+    title: '3 Step KYC',
+    text: 'Using an inhouse AI BOUNCERS, CU makes sure the CROWD is always vibrant and real',
   },
   {
-    title: 'Explore people near you',
-    text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo corporis eligendi at sed minus, iure iusto, nam inventore delectus cupiditate pariatur exercitationem quia eos cumque perferendis veniam fugit. Molestias, blanditiis!',
+    title: 'MAP Tracker',
+    text: 'An interactive tool that makes sure the buzzy events are not left unbuzzed',
   },
   {
-    title: 'Explore people with common interests',
-    text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo corporis eligendi at sed minus, iure iusto, nam inventore delectus cupiditate pariatur exercitationem quia eos cumque perferendis veniam fugit. Molestias, blanditiis!',
+    title: 'Explore Events',
+    text: 'Explore events happening around you and visit with friends. Find people with common interests and invite them to go to events together.',
   },
   {
-    title: 'And More',
-    text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo corporis eligendi at sed minus, iure iusto, nam inventore delectus cupiditate pariatur exercitationem quia eos cumque perferendis veniam fugit. Molestias, blanditiis!',
+    title: 'Advance Booking',
+    text: "Book seats for events in advance so that you get the best out of it.",
   },
 ];
 
 const Features = () => (
   <div className="cu__features section__padding" id="features">
     <div className="cu__features-heading">
-      <h1 className="gradient__text">Breaking the taboo of swiping just to date (why taboo, I don't know)</h1>
-      <p>Register Early to get Free 1 month Premium</p>
+      <h1 className="gradient__text">We provide...</h1>
+      <p>Coming soon...</p>
     </div>
     <div className="cu__features-container">
       {featuresData.map((item, index) => (
